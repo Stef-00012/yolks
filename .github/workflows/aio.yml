@@ -1,10 +1,10 @@
 name: AIO
 
 on:
-    # push:
-    #     branches: [main]
-    #     paths:
-    #         - "aio/**"
+    push:
+        branches: [main]
+        paths:
+            - "aio/**"
 
     workflow_dispatch:
 
